@@ -18,6 +18,7 @@
 
 </head>
 
+  
 <body>
     <!-- Preloader -->
     <div id="preloader">
@@ -25,8 +26,24 @@
     </div>
     <!-- /Preloader -->
 
-
-               
+    <!-- Top Search Form Area -->
+    <div class="top-search-area">
+        <div class="modal fade" id="searchModal" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <!-- Close -->
+                        <button type="button" class="btn close-btn" data-dismiss="modal"><i class="ti-close"></i></button>
+                        <!-- Form -->
+                        <form action="index.html" method="post">
+                            <input type="search" name="top-search-bar" class="form-control" placeholder="BUSCO...">
+                            <button type="submit">BUSCAR</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Header Area Start -->
     <header class="header-area">
@@ -54,10 +71,13 @@
                             <!-- Nav Start -->
                             <div class="classynav">
                                 <ul id="nav">
-                                    <li class="active"><a href="./index.html">Home</a></li>
-                                    <li><a href="#">Pages</a>
+                                    <li class="active"><a href="./index.html">INICIO</a></li>
+
+
+                                   <!-- <li>
+                                        <a href="#">Pages</a>
                                         <ul class="dropdown">
-                                            <li><a href="./index.html">- Home</a></li>
+                                            <li><a href="./index.html">-INICIO</a></li>
                                             <li><a href="./about.html">- About</a></li>
                                             <li><a href="./gallery.html">- Gallery</a></li>
                                             <li><a href="./blog.html">- Blog</a></li>
@@ -72,7 +92,9 @@
                                                 </ul>
                                             </li>
                                         </ul>
-                                    </li>
+                                    </li> -->
+
+
                                     <li><a href="./about.html">About</a></li>
                                     <li><a href="./gallery.html">Gallery</a></li>
                                     <li><a href="./blog.html">Blog</a></li>
