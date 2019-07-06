@@ -1,6 +1,6 @@
 {
   "name": "Dart",
-  "short_name": "#ProgramadorFitness",
+  "short_name": "Dart",
   "description": "Bienvenid@s a #ProgramadorFitness, serie de videos, donde te daré consejos para llevar una vida saludable y evitar el sedentarismo. Recuerda... mente sana en cuerpo sano :)",
   "background_color": "#2B2B2B",
   "theme_color": "#F0DB4F",
@@ -8,7 +8,7 @@
   "display": "standalone",
   "start_url": "./?utm_source=web_app_manifest",
   "scope": "./",
-  "lang": "es-MX",
+  "lang": "es",
   "icons": [
     {
       "src": "./img/icon_1024.png",
