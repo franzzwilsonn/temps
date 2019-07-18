@@ -11,6 +11,7 @@ const CACHE_NAME = 'v1_cache_programador_fitness',
     './script.js',
     './img/ProgramadorFitness.png',
     './img/favicon.png'
+    './willsdu.mp3'
   ]
 
 //durante la fase de instalación, generalmente se almacena en caché los activos estáticos
